@@ -9,8 +9,10 @@ export default function Header() {
     <Navbar className="border-b-2">
       <Link
         to={"/"}
-        className="self-center whitespace-nowrap text-sm sm:text-xl font-bold dark:text-white"
-      >AmazBlog.</Link>
+        className="self-center whitespace-nowrap text-lg sm:text-xl font-bold text-rose-600 dark:text-white"
+      >
+        AmazBlog.
+      </Link>
       <form>
         <TextInput
           type="text"
@@ -27,7 +29,7 @@ export default function Header() {
           <FaMoon />
         </Button>
         <Link to={"/sign-in"}>
-          <Button gradientDuoTone={"purpleToBlue"} outline>
+          <Button gradientDuoTone="pinkToOrange" outline pill>
             SignIn
           </Button>
         </Link>
