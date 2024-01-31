@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Footerr from "./components/Footer";
 import Loader from "./components/Loader";
 const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
@@ -24,7 +24,7 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </Suspense>
-      <Footer />
+      <Footerr />
     </Router>
   );
 }
