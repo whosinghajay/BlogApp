@@ -9,7 +9,7 @@ export default function Header() {
     <Navbar className="border-b-2">
       <Link
         to={"/"}
-        className="self-center whitespace-nowrap text-lg sm:text-xl font-bold text-rose-600 dark:text-white"
+        className="self-center whitespace-nowrap text-xl sm:text-2xl font-bold text-purple-600 dark:text-white"
       >
         AmazBlog.
       </Link>
